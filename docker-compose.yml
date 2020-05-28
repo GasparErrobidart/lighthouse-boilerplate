@@ -3,6 +3,7 @@ version: "3"
 services:
   app:
     build: .
+    network_mode: "host"
     environment:
       NODE_ENV: development
       PORT: 8000
